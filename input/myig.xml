@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
-  <id value="example.fhir.uv.myig"/>
+  <id value="example.fhir.uv.testingBuilder"/>
 <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
@@ -9,7 +9,7 @@
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.2.0"/>
   <name value="YourComputableMyIGNameHere"/>
-  <title value="Your User Friendly Name for MyIG Here"/>
+  <title value="Example IG for the testing of the ig-auto-builder"/>
   <status value="draft"/>
   <experimental value="false"/>
   <publisher value="HL7 International - [Some] Work Group"/>
